@@ -17,7 +17,7 @@ main{
 
 input{
     padding: 1vh;
-    width: 50vh;
+    width: auto;
     border-radius: 8px;
     border: 1px solid #363535;
     text-align: center;
