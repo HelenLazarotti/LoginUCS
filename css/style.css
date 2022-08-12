@@ -4,7 +4,7 @@ body{
 }
 main{
     background-color: white;
-    width: 80vh;
+    width: 50vh;
     padding: 3%;
     text-align: center;
     margin: auto auto;
@@ -23,6 +23,10 @@ input{
     text-align: center;
    
     
+}
+.input{
+    float: left;
+    margin-bottom: 2%;
 }
 p > a{
     text-decoration: none;
