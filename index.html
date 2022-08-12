@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/function.js"></script>
+    <title>Serviços Online UCS</title>
+</head>
+<body>
+    <main>
+        <p class="title">
+            <img src="img/logo.jpg" alt="" width="30%">
+            <strong>S</strong>erviços 
+            <strong>O</strong>nline 
+            <strong>U</strong>cs
+        </p>
+
+        <hr><br>
+
+       <strong class="input">Usuário</strong>
+
+       <input type="email" 
+       placeholder="seunome@ucs.br" style="margin-bottom: 3%;" 
+       id="inputEmail" 
+       onblur="validarEmail()" 
+       onfocus="redefinirMsg()">
+       <br>
+
+       <strong class="input">Senha </strong>
+       <input type="password" placeholder="**************"  
+       id="inputSenha">
+       <br>
+
+        
+
+        <p class="problemas">Problemas, dúvidas ou segestões, enviar email para: 
+            <a href="mailto:auth@ucs.br?subject='Preciso tirar uma dúvida...'" 
+            target="_blank">auth@ucs.br</a>
+        </p>
+
+        <span class="span"></span><br>
+
+        <button type="submit" 
+        class="btn" 
+        id="login">Acessar</button>
+
+        <hr>
+
+        <p id="esqueciSenha">Esqueceu sua senha? 
+            <a href="#">Recupere aqui</a>
+        </p>
+    </main>
+</body>
+</html>
